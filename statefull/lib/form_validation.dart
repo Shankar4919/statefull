@@ -18,7 +18,7 @@ class _AddNumberState extends State<AddNumber> {
     return Scaffold(
       // backgroundColor: Colors.redAccent,
       appBar: AppBar(
-        title: const Text('My Form Example'),
+        title: const Text('Form: Adding Two Numbers'),
       ),
       body: SingleChildScrollView(
         
