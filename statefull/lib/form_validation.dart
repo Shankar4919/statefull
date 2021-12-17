@@ -21,15 +21,11 @@ class _AddNumberState extends State<AddNumber> {
         title: const Text('My Form Example'),
       ),
       body: SingleChildScrollView(
-        
-      
         child: Padding(
-
           padding: const EdgeInsets.all(30.0),
           child: Form(
             key: _formkey,
             child: Column(
-              
               children: [
                 TextFormField(
                   //2. textform field with validator logic
